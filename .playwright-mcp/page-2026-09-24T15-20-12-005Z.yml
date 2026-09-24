@@ -1,0 +1,206 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]: Healthcare Management System
+    - generic [ref=e5]:
+      - link "Dashboard" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+      - link "Appointments" [ref=e7] [cursor=pointer]:
+        - /url: /appointments
+      - link "Medical Records" [ref=e8] [cursor=pointer]:
+        - /url: /medical-records
+      - link "Prescriptions" [ref=e9] [cursor=pointer]:
+        - /url: /prescriptions
+    - generic [ref=e10]:
+      - generic [ref=e11]: "Role: doctor"
+      - button "Logout" [ref=e12] [cursor=pointer]
+  - generic [ref=e14]:
+    - heading "Appointments" [level=1] [ref=e15]
+    - paragraph [ref=e181]: Appointment confirmed successfully
+    - heading "My Appointments" [level=2] [ref=e16]
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - paragraph [ref=e186]: Demo Patient
+            - paragraph [ref=e187]: Dr Demo Doctor - General Medicine
+          - generic [ref=e188]: Cancelled
+        - generic [ref=e189]:
+          - paragraph [ref=e190]:
+            - strong [ref=e191]: "Date:"
+            - text: 25-09-2026
+          - paragraph [ref=e192]:
+            - strong [ref=e193]: "Time:"
+            - text: 10:00
+          - paragraph [ref=e194]:
+            - strong [ref=e195]: "Reason:"
+            - text: Regular checkup
+        - generic [ref=e197]: ✕ Cancelled
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Patient Two
+            - paragraph [ref=e202]: Dr Demo Doctor - General Medicine
+          - generic [ref=e203]: Completed
+        - generic [ref=e204]:
+          - paragraph [ref=e205]:
+            - strong [ref=e206]: "Date:"
+            - text: 26-09-2026
+          - paragraph [ref=e207]:
+            - strong [ref=e208]: "Time:"
+            - text: 11:00
+          - paragraph [ref=e209]:
+            - strong [ref=e210]: "Reason:"
+            - text: allowed now
+        - generic [ref=e211]:
+          - generic [ref=e212]: ✓ Booked
+          - generic [ref=e213]: ↓
+          - generic [ref=e214]: ✓ Confirmed
+          - generic [ref=e215]: ↓
+          - generic [ref=e216]: ✓ Completed
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - paragraph [ref=e220]: Demo Patient
+            - paragraph [ref=e221]: Dr Demo Doctor - General Medicine
+          - generic [ref=e222]: Completed
+        - generic [ref=e223]:
+          - paragraph [ref=e224]:
+            - strong [ref=e225]: "Date:"
+            - text: 27-09-2026
+          - paragraph [ref=e226]:
+            - strong [ref=e227]: "Time:"
+            - text: 09:00
+          - paragraph [ref=e228]:
+            - strong [ref=e229]: "Reason:"
+            - text: complete me
+        - generic [ref=e230]:
+          - generic [ref=e231]: ✓ Booked
+          - generic [ref=e232]: ↓
+          - generic [ref=e233]: ✓ Confirmed
+          - generic [ref=e234]: ↓
+          - generic [ref=e235]: ✓ Completed
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - paragraph [ref=e239]: Patient Two
+            - paragraph [ref=e240]: Dr Demo Doctor - General Medicine
+          - generic [ref=e241]: Confirmed
+        - generic [ref=e242]:
+          - paragraph [ref=e243]:
+            - strong [ref=e244]: "Date:"
+            - text: 25-09-2026
+          - paragraph [ref=e245]:
+            - strong [ref=e246]: "Time:"
+            - text: 10:00
+          - paragraph [ref=e247]:
+            - strong [ref=e248]: "Reason:"
+            - text: slot reused
+        - generic [ref=e249]:
+          - generic [ref=e250]: ✓ Booked
+          - generic [ref=e251]: ↓
+          - generic [ref=e252]: ✓ Confirmed
+          - generic [ref=e253]: ↓
+          - generic [ref=e254]: ○ Completed
+        - button "Complete Appointment" [ref=e255] [cursor=pointer]
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - paragraph [ref=e259]: Patient Two
+            - paragraph [ref=e260]: Dr Demo Doctor - General Medicine
+          - generic [ref=e261]: Completed
+        - generic [ref=e262]:
+          - paragraph [ref=e263]:
+            - strong [ref=e264]: "Date:"
+            - text: 28-09-2026
+          - paragraph [ref=e265]:
+            - strong [ref=e266]: "Time:"
+            - text: 14:00
+          - paragraph [ref=e267]:
+            - strong [ref=e268]: "Reason:"
+            - text: confirm me
+        - generic [ref=e269]:
+          - generic [ref=e270]: ✓ Booked
+          - generic [ref=e271]: ↓
+          - generic [ref=e272]: ✓ Confirmed
+          - generic [ref=e273]: ↓
+          - generic [ref=e274]: ✓ Completed
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - paragraph [ref=e278]: Demo Patient
+            - paragraph [ref=e279]: Dr Demo Doctor - General Medicine
+          - generic [ref=e280]: Booked
+        - generic [ref=e281]:
+          - paragraph [ref=e282]:
+            - strong [ref=e283]: "Date:"
+            - text: 29-09-2026
+          - paragraph [ref=e284]:
+            - strong [ref=e285]: "Time:"
+            - text: 15:00
+          - paragraph [ref=e286]:
+            - strong [ref=e287]: "Reason:"
+            - text: skip
+        - generic [ref=e288]:
+          - generic [ref=e289]: ✓ Booked
+          - generic [ref=e290]: ↓
+          - generic [ref=e291]: ○ Confirmed
+          - generic [ref=e292]: ↓
+          - generic [ref=e293]: ○ Completed
+        - button "Confirm Appointment" [ref=e294] [cursor=pointer]
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - paragraph [ref=e298]: Demo Patient
+            - paragraph [ref=e299]: Dr Demo Doctor - General Medicine
+          - generic [ref=e300]: Cancelled
+        - generic [ref=e301]:
+          - paragraph [ref=e302]:
+            - strong [ref=e303]: "Date:"
+            - text: 01-10-2026
+          - paragraph [ref=e304]:
+            - strong [ref=e305]: "Time:"
+            - text: 10:00
+          - paragraph [ref=e306]:
+            - strong [ref=e307]: "Reason:"
+            - text: checkup
+        - generic [ref=e309]: ✕ Cancelled
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - paragraph [ref=e313]: Demo Patient
+            - paragraph [ref=e314]: Dr Demo Doctor - General Medicine
+          - generic [ref=e315]: Booked
+        - generic [ref=e316]:
+          - paragraph [ref=e317]:
+            - strong [ref=e318]: "Date:"
+            - text: 01-10-2026
+          - paragraph [ref=e319]:
+            - strong [ref=e320]: "Time:"
+            - text: 10:00
+          - paragraph [ref=e321]:
+            - strong [ref=e322]: "Reason:"
+            - text: rebook after cancel
+        - generic [ref=e323]:
+          - generic [ref=e324]: ✓ Booked
+          - generic [ref=e325]: ↓
+          - generic [ref=e326]: ○ Confirmed
+          - generic [ref=e327]: ↓
+          - generic [ref=e328]: ○ Completed
+        - button "Confirm Appointment" [ref=e329] [cursor=pointer]
+      - generic [ref=e330]:
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - paragraph [ref=e333]: Demo Patient
+            - paragraph [ref=e334]: Dr Demo Doctor - General Medicine
+          - generic [ref=e335]: Cancelled
+        - generic [ref=e336]:
+          - paragraph [ref=e337]:
+            - strong [ref=e338]: "Date:"
+            - text: 05-10-2026
+          - paragraph [ref=e339]:
+            - strong [ref=e340]: "Time:"
+            - text: 11:00
+          - paragraph [ref=e341]:
+            - strong [ref=e342]: "Reason:"
+            - text: UI booking test
+        - generic [ref=e344]: ✕ Cancelled

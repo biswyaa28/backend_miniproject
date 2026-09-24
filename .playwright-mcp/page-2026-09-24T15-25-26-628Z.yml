@@ -1,0 +1,61 @@
+- generic [ref=e2]:
+  - navigation [ref=e296]:
+    - generic [ref=e297]: Healthcare Management System
+    - generic [ref=e298]:
+      - link "Dashboard" [ref=e299] [cursor=pointer]:
+        - /url: /dashboard
+      - link "Doctors" [active] [ref=e300] [cursor=pointer]:
+        - /url: /doctors
+      - link "Appointments" [ref=e301] [cursor=pointer]:
+        - /url: /appointments
+    - generic [ref=e302]:
+      - generic [ref=e303]: "Role: receptionist"
+      - button "Logout" [ref=e304] [cursor=pointer]
+  - generic [ref=e327]:
+    - heading "Doctors" [level=1] [ref=e328]
+    - generic [ref=e329]:
+      - generic [ref=e330]:
+        - paragraph [ref=e331]: Dr Demo Doctor
+        - paragraph [ref=e332]: General Medicine
+        - paragraph [ref=e333]:
+          - strong [ref=e334]: "Phone:"
+          - text: "9876543210"
+        - paragraph [ref=e335]:
+          - strong [ref=e336]: "Status:"
+          - text: AVAILABLE
+      - generic [ref=e337]:
+        - paragraph [ref=e338]: Dr Test
+        - paragraph [ref=e339]: Cardiology
+        - paragraph [ref=e340]:
+          - strong [ref=e341]: "Phone:"
+          - text: "1112223333"
+        - paragraph [ref=e342]:
+          - strong [ref=e343]: "Status:"
+          - text: AVAILABLE
+      - generic [ref=e344]:
+        - paragraph [ref=e345]: Dr Second
+        - paragraph [ref=e346]: Dermatology
+        - paragraph [ref=e347]:
+          - strong [ref=e348]: "Phone:"
+          - text: "2223334444"
+        - paragraph [ref=e349]:
+          - strong [ref=e350]: "Status:"
+          - text: AVAILABLE
+      - generic [ref=e351]:
+        - paragraph [ref=e352]: Dr UI Test
+        - paragraph [ref=e353]: Neurology
+        - paragraph [ref=e354]:
+          - strong [ref=e355]: "Phone:"
+          - text: "5556667777"
+        - paragraph [ref=e356]:
+          - strong [ref=e357]: "Status:"
+          - text: AVAILABLE
+      - generic [ref=e358]:
+        - paragraph [ref=e359]: Dr Admin UI
+        - paragraph [ref=e360]: Pediatrics
+        - paragraph [ref=e361]:
+          - strong [ref=e362]: "Phone:"
+          - text: "9998887777"
+        - paragraph [ref=e363]:
+          - strong [ref=e364]: "Status:"
+          - text: AVAILABLE
