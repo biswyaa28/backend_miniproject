@@ -1,0 +1,589 @@
+/* Simple global styles for the beginner project */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7fa;
+  color: #222;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  background-color: #0b6e4f;
+  color: #fff;
+  padding: 12px 24px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.role-badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.btn-logout {
+  background-color: #fff;
+  color: #0b6e4f;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ---------- Container / pages ---------- */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- Auth pages (Login / Register) ---------- */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card h1 {
+  margin-bottom: 20px;
+  color: #0b6e4f;
+  text-align: center;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card label {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.auth-card input,
+.auth-card select {
+  margin-bottom: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.auth-card button {
+  margin-top: 8px;
+  padding: 10px;
+  background-color: #0b6e4f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.auth-card button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.auth-switch {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-switch a {
+  color: #0b6e4f;
+  font-weight: bold;
+}
+
+/* ---------- Messages ---------- */
+.error-message {
+  background-color: #fdecea;
+  color: #b3261e;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.success-message {
+  background-color: #e6f4ea;
+  color: #0b6e4f;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+/* ---------- Dashboard ---------- */
+.dashboard {
+  padding: 8px 8px 24px;
+}
+
+.dashboard > h1 {
+  color: #0b6e4f;
+  margin-bottom: 8px;
+}
+
+.dashboard-role {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.dashboard h2 {
+  color: #0b6e4f;
+  margin-bottom: 12px;
+}
+
+.dash-info {
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.dash-note {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* ---------- Action cards / buttons ---------- */
+.action-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.action-card {
+  background-color: #0b6e4f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action-card:hover {
+  background-color: #095c42;
+}
+
+/* ---------- Info card (profile / summary) ---------- */
+.info-card {
+  background-color: #f7faf9;
+  border: 1px solid #d9e8e3;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  color: #0b6e4f;
+  margin-bottom: 12px;
+}
+
+.info-card p {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* ---------- Doctor availability status ---------- */
+.availability-line {
+  margin-top: 8px !important;
+}
+
+.status-available {
+  color: #0b6e4f;
+  font-weight: bold;
+}
+
+.status-unavailable {
+  color: #b3261e;
+  font-weight: bold;
+}
+
+.btn-toggle {
+  margin-top: 12px;
+  background-color: #ffffff;
+  color: #0b6e4f;
+  border: 1px solid #0b6e4f;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-toggle:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* ---------- Summary counts ---------- */
+.count-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.count-box {
+  background-color: #ffffff;
+  border: 1px solid #d9e8e3;
+  border-radius: 6px;
+  padding: 14px 20px;
+  min-width: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.count-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0b6e4f;
+}
+
+.count-label {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ---------- Placeholder pages ---------- */
+.placeholder {
+  text-align: center;
+  padding: 40px 16px;
+}
+
+.placeholder h1 {
+  color: #0b6e4f;
+  margin-bottom: 12px;
+}
+
+.placeholder p {
+  color: #555;
+}
+
+/* ---------- Doctors page ---------- */
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.doctor-card {
+  background-color: #f7faf9;
+  border: 1px solid #d9e8e3;
+  border-radius: 6px;
+  padding: 16px;
+  min-width: 240px;
+  flex: 1 1 240px;
+}
+
+.doctor-card p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.btn-book {
+  margin-top: 10px;
+}
+
+/* Inline form (Add Doctor) */
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.inline-form input {
+  flex: 1 1 180px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.inline-form button {
+  background-color: #0b6e4f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.inline-form button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+/* ---------- Appointments page ---------- */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.booking-form button {
+  margin-top: 4px;
+  background-color: #0b6e4f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.booking-form button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.appointment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+/* ---------- Appointment card ---------- */
+.appointment-card {
+  background-color: #ffffff;
+  border: 1px solid #d9e8e3;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.appointment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.appt-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #0b6e4f;
+  margin-bottom: 2px;
+}
+
+.appt-sub {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.appt-status {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.status-booked {
+  background-color: #e8f0fe;
+  color: #1a56db;
+}
+
+.status-confirmed {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-completed {
+  background-color: #e6f4ea;
+  color: #0b6e4f;
+}
+
+.status-cancelled {
+  background-color: #fdecea;
+  color: #b3261e;
+}
+
+.appointment-card-body {
+  margin-bottom: 12px;
+}
+
+.appointment-card-body p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+/* ---------- Timeline ---------- */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  background-color: #f7faf9;
+  border-radius: 4px;
+}
+
+.timeline-step {
+  font-size: 13px;
+  color: #999;
+}
+
+.timeline-step.done {
+  color: #0b6e4f;
+  font-weight: bold;
+}
+
+.timeline-step.cancelled {
+  color: #b3261e;
+  font-weight: bold;
+}
+
+.timeline-arrow {
+  color: #bbb;
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.timeline-cancelled {
+  background-color: #fdecea;
+}
+
+/* ---------- Appointment action buttons ---------- */
+.btn-cancel,
+.btn-confirm,
+.btn-complete {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: #fdecea;
+  color: #b3261e;
+  border: 1px solid #b3261e;
+}
+
+.btn-confirm {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #92400e;
+}
+
+.btn-complete {
+  background-color: #0b6e4f;
+  color: #fff;
+}
+
+.cancelled-note {
+  color: #b3261e;
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* ---------- Medical Records / Prescriptions ---------- */
+.record-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.record-card {
+  background-color: #ffffff;
+  border: 1px solid #d9e8e3;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.record-card-body {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #d9e8e3;
+}
+
+.record-card-body p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.booking-form textarea {
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}

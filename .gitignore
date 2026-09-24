@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never commit real secrets)
+.env
+
+# Build output
+dist/
+
+# Logs
+*.log
+logs
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Agent tool scratch folders
+.playwright-mcp/
+.kilo/
