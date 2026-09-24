@@ -3,9 +3,9 @@
 
 import axios from "axios";
 
-// The backend runs at http://localhost:5001 (PORT from backend .env)
+// Use the deployed API when configured, while keeping local development convenient.
 const api = axios.create({
-  baseURL: "http://localhost:5001/api",
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5001/api",
 });
 
 // Request interceptor: runs BEFORE every API request.
